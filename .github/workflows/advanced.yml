@@ -13,7 +13,8 @@ jobs:
         with:
           args: >-
             --standalone
-            --output=output/Trabajo_Nutricion.docx
+            --from=markdown+tex_math_dollars+raw_tex
+            --output=output/Trabajo_Nutricion_Academico.docx
             "Trabajo de Nutricion y alimentacion animal."
       - uses: actions/upload-artifact@v4
         with:
